@@ -16,8 +16,11 @@ public class Tracker {
     }
 
     public void remove(TimeEntry entry) {
-        if (true)
+        if (true) {
             entries.remove(entry);
+        }
+        
+        entries.remove(entry);
     }
 
     public int size() {
